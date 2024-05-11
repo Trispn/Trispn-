@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  align:center; 
+}
+
+.hoodies-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hoodie {
+    margin: 2px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(30% - 30px);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.hoodie img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.hoodie h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.hoodie p {
+    margin-bottom: 20px;
+}
+
+.hoodie button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hoodie button:hover {
+    background-color: #555;
+}
+
+/* Add more CSS rules here */
+
+/* Media queries for responsive design */
+
+@media (max-width: 768px) {
+    .hoodie {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .hoodie {
+        width: 100%;
+    }
+}
+
+.category {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+
+.category ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category li {
+  margin-bottom: 10px;
+}
+
+.category a {
+  color: #337ab7;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.category a:hover {
+  color: #23527c;
+  background-color: #f2f2f2;
+}
+
+.category h1 {
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category center {
+  margin-bottom: 20px;
+}
+
+.category li:last-child a {
+  border-bottom: none;
+}
+
+
+.view-more {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.view-more:hover {
+  background-color: #555;
+}
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+video {
+	width: 100%; 
+	height: 300px; 
+	max-width: 100%; 
+	max-height: 200px; 
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-bottom:20px; 
+	background:#201e24;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
